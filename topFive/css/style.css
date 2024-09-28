@@ -1,3 +1,15 @@
-body {
-    
+body { 
+    background-color: #ffffff; 
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: flex-start;
+    height: 100vh; 
+    border-top: 100px solid #0057ff;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
+
+
+
