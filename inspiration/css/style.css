@@ -5,8 +5,10 @@ body {
     align-items: center;
     justify-content: flex-start;
     height: 100vh; 
-    border-top: 120px solid #0057ff;
-    
+    border-top: 100px solid #0057ff;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
 }
 
 * {
@@ -17,18 +19,30 @@ body {
 
 p {
     font-family: 'Alata', sans-serif;
+    text-align: justify;
 }
 
 h1 {
-    font-family: 'VT323', monospace;
-    color: #0057ff;
-    font-size: 50px
+    font-family: 'Alata', monospace;
+    color: #ffffff;
+    font-size: 50px;
+    margin-top: -100px;
+    position: relative;
+    z-index: 1;
+
 }
 
 h2 {
     font-family: 'Alata', monospace;
+    color: #000000;
+    font-size: 20px;
+    margin-top: -1px;
+}
+
+h3 {
+    font-family: 'Alata', monospace;
     color: #0057ff;
-    font-size: 20
+    font-size: 20px
 }
 
 .center-content {
@@ -42,10 +56,12 @@ h2 {
 
 .inspiration-columns {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     gap: 20px;
     flex-wrap: wrap;
-    max-width: 1200px;
+    max-width: 1000px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
 .inspiration-item {
@@ -55,21 +71,10 @@ h2 {
     max-width: 300px;
     text-align: center;
 }
-
 img.rounded-corners {
-    width: 100px;
+    width: 300px;
     height: auto;
     border-radius: 20px;
-}
-
-
-.bottom-nav {
-    margin-top: auto;
-    border: 10px solid #00082f9b; 
-    border-radius: 10px; 
-    padding: 10px; 
-    text-align: center;
-   
 }
 
 .footer { 
@@ -78,11 +83,13 @@ img.rounded-corners {
     background-color: #0057ff; 
     padding: 40px; 
     text-align: center; 
-    position: relative; 
+    position: absolute; 
     bottom: 0; 
+    left: 0; 
     width: 100%; 
-   
+    margin-top: auto;
 }
+
 
 .footer a {
     color: rgb(255, 255, 255);

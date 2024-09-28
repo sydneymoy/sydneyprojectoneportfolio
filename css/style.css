@@ -6,6 +6,7 @@ body {
     justify-content: flex-start;
     height: 100vh; 
     border-top: 100px solid #0057ff;
+    position: relative;
 }
 
 * {
@@ -21,7 +22,7 @@ p {
 }
 
 h1 {
-    font-family: 'Vt323', monospace;
+    font-family: 'Lilita One', sans-serif;
     color: #0057ff;
     font-size: 50px
     
@@ -47,14 +48,6 @@ img {
     text-align: center;
 }
 
-.bottom-nav {
-    margin-top: auto;
-    border: 10px solid #00082f9b; 
-    border-radius: 10px; 
-    padding: 10px; 
-    text-align: center;
-   
-}
 
 .footer { 
     font-family: 'Alata', sans-serif;
@@ -62,10 +55,11 @@ img {
     background-color: #0057ff; 
     padding: 40px; 
     text-align: center; 
-    position: relative; 
+    position: absolute; 
     bottom: 0; 
+    left: 0; 
     width: 100%; 
-   
+    margin-top: auto;
 }
 
 .footer a {
