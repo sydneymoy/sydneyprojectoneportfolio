@@ -72,12 +72,22 @@ h3 {
     align-items: center;
     max-width: 250px;
     text-align: center;
+
 }
+
+.inspiration-item:hover {
+    transform: scale(1.05);
+}
+
+
 img.rounded-corners {
     width: 300px;
     height: auto;
     border-radius: 20px;
+    box-shadow: 0 15px 20px rgba(49, 49, 50, 0.616);
+    transition: box-shadow 0.3s;
 }
+
 
 .footer { 
     font-family: 'Alata', sans-serif;
