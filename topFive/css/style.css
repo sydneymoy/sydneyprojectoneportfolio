@@ -7,7 +7,6 @@ body {
     height: 100vh; 
     border-top: 100px solid #0057ff;
     width: 100vw;
-    box-sizing: border-box;
     position: relative;
     font-family: 'Alata', sans-serif;
     margin-top: -20px;
@@ -24,7 +23,6 @@ html, body {
     margin: 0;
     padding: 0;
     width: 100%;
-    box-sizing: border-box;
 }
 
 h1 {
@@ -44,7 +42,8 @@ h2 {
     padding: 15px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 15px;
-    background-color:rgba(255, 92, 92, 0.8);
+    background-color: #ff5c5c;
+    background-color:rgba(255, 92, 92, 0.8); 
     text-align: center;
 }
 
@@ -68,7 +67,6 @@ ol {
 ol li {
     flex: 0 1 calc(33.33% - 20px);
     margin: 10px;
-    box-sizing: border-box;
     
 }
 
@@ -127,22 +125,33 @@ h3, p {
     text-align: left;
     line-height: 1.5;
     background: linear-gradient(to right, #aaecf9, #00d4ff);
-    border: 3px solid black;
-    padding: 10px;
+    border: 3px solid rgb(0, 0, 0);
+    padding: 25px;
     border-radius: 20px;
-    margin: 40px 0;
+    margin: 40px auto;
+}
+
+
+
+.game-image {
+    background-color: #000000ee;
+    padding: 10px;
+    box-shadow: 0 4px 12px rgba(255, 92, 92, 0.8);
+    border-radius: 15px;
+   
+}
+
+.game-image:hover {
+    transform: scale(1.04);
 
 }
 
-  
 
 .tv-shows-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     padding: 20px;
-    box-sizing: border-box;
-    padding: 0 30px;
 }
 
 .tv-shows-container dt, 
@@ -175,7 +184,7 @@ dd {
     line-height: 1.5;
 }
 
-img.rounded-corners {
+.rounded-corners {
     width: 300px;
     height: auto;
     border-radius: 20px;

@@ -7,21 +7,21 @@ body {
     height: 100vh; 
     border-top: 100px solid #0057ff;
     width: 100%;
-    box-sizing: border-box;
     position: relative;
    
-}
-
-.bottom-border {
-    border-bottom: 100px solid #0057ff;
-    width: 500%;
 }
 
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+
+.bottom-border {
+    border-bottom: 100px solid #0057ff;
+    width: 500%;
+
+}
+
 
 p {
     font-family: 'Alata', sans-serif;
@@ -100,7 +100,7 @@ h3 {
 }
 
 
-img.rounded-corners {
+.rounded-corners {
     width: 300px;
     height: auto;
     border-radius: 20px;
