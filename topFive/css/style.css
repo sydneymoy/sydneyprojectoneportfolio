@@ -74,6 +74,30 @@ ol li {
 
 }
 
+.game-list {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.game-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.game-description {
+    text-align: left;
+
+}
+
+dt {
+    font-weight: bold;
+}
+
 
 
 .footer { 
