@@ -9,6 +9,12 @@ body {
     width: 100%;
     box-sizing: border-box;
     position: relative;
+   
+}
+
+.bottom-border {
+    border-bottom: 100px solid #0057ff;
+    width: 500%;
 }
 
 * {

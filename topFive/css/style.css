@@ -11,6 +11,13 @@ body {
     position: relative;
     font-family: 'Alata', sans-serif;
     margin-top: -20px;
+
+}
+
+
+.bottom-border {
+    border-bottom: 100px solid #0057ff;
+    width: 100%;
 }
 
 html, body {
@@ -42,6 +49,11 @@ h2 {
 }
 
 
+.right-text {
+    text-align: right;
+    margin-left: auto;
+    
+}
 
 ol {
     display: flex;
@@ -52,6 +64,7 @@ ol {
 
 }
 
+
 ol li {
     flex: 0 1 calc(33.33% - 20px);
     margin: 10px;
@@ -59,24 +72,45 @@ ol li {
     
 }
 
-.food-item {
+.food-list {
+    list-style-type: decimal;
     
-    max-width: 500px;
-    align-items: center;
-    justify-content: space-between;
+    
+}
+
+.food-item {
+    text-align: center;
 }
 
 .food-item img {
     width: 100%;
     max-width: 300px;
     height: auto;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 
 }
 
+h3, p {
+    margin: 10px 0;
+    text-align: left;
+    display: block;
+   
+}
+
+
+.polaroid {
+    border: 10px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    background-color: white;
+    display: block;
+    
+   
+}
+
 .game-list {
-    list-style-type: none;
-    padding: 0;
+    list-style: disc;
     text-align: center;
 }
 
@@ -91,25 +125,68 @@ ol li {
 
 .game-description {
     text-align: left;
+    line-height: 1.5;
+    background: linear-gradient(to right, #aaecf9, #00d4ff);
+    border: 3px solid black;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px 0;
 
 }
 
-dt {
-    font-weight: bold;
+  
+
+.tv-shows-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+    box-sizing: border-box;
+    padding: 0 30px;
 }
 
-dl {
+.tv-shows-container dt, 
+.tv-shows-container dd {
+    margin: 50px;
+    flex: 1 0 200px;
     text-align: center;
 
 }
 
+.tv-shows-container dt:first-child {
+    margin-left: 200px; 
+}
+
+
+
 dt {
+    font-weight: bold;
+    text-align: center;
+
+}
+
+dt p {
+    margin-top: 10px;
     margin-bottom: 10px;
+    text-align: center;
 }
 
 dd {
-    margin-top: 10px;
+    line-height: 1.5;
 }
+
+img.rounded-corners {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 15px 20px rgba(71, 154, 255, 0.616);
+    transition: box-shadow 0.3s;
+}
+
+.tv-shows-container img:hover {
+    transform: scale(1.05);
+}
+
 
 
 .footer { 
