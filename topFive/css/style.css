@@ -146,39 +146,31 @@ h3, p {
 
 }
 
-
 .tv-shows-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
-    padding: 20px;
+    padding: 100px;
 }
 
 .tv-shows-container dt, 
 .tv-shows-container dd {
-    margin: 50px;
-    flex: 1 0 200px;
+    margin: 25px;
+    flex: 1 0 100px;
     text-align: center;
 
 }
-
-.tv-shows-container dt:first-child {
-    margin-left: 200px; 
-}
-
 
 
 dt {
     font-weight: bold;
-    text-align: center;
+    
 
 }
-
 dt p {
-    margin-top: 10px;
-    margin-bottom: 10px;
     text-align: center;
 }
+
 
 dd {
     line-height: 1.5;
